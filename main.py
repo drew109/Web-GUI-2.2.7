@@ -5,8 +5,10 @@ import tkinter.scrolledtext as tksc
 from tkinter import filedialog
 from tkinter.filedialog import asksaveasfilename
 
+
 def do_command():
     subprocess.call("ping localhost")
+
 
 root = tk.Tk()
 frame = tk.Frame(root)
